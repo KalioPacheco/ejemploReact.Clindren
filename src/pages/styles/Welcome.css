@@ -1,0 +1,12 @@
+.welcome {
+    width: 100%;
+    padding: 13.6%;
+    background: url('../../images/stars.svg'), #1B1B25;
+    background-repeat: repeat;
+  }
+.letras{
+  color: white;
+}
+.logo{
+width: 300px;
+}

@@ -1,0 +1,25 @@
+.BadgeNew
+  width: 100%
+  padding: 2rem 0
+  background-color: #F4F4F7
+  background-repeat: repeat
+  margin-bottom: 1rem
+  color: #ffffff
+  &__containerf
+    width: 100%
+    max-width: 580px
+    margin: 0 auto
+    padding: 0 1rem
+    img
+      margin-bottom: 2rem
+  &__ejemplo
+    display: grid
+    grid-template-columns: repeat(5, 1fr)
+    grid-column-gap: 1rem
+    grid-row-gap: 1rem
+    @media screen and (max-width: 1366px)
+      grid-template-columns: repeat(4, 1fr)
+    @media screen and (max-width: 990px)
+      grid-template-columns: repeat(3, 1fr)
+    @media screen and (max-width: 600px)
+      grid-template-columns: repeat(1, 1fr)
